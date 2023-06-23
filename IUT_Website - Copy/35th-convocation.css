@@ -1,0 +1,111 @@
+.con-slider{
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 390px;
+    width: 1120px;
+    background-color: blue;
+    
+    
+    
+}
+.con-slides{
+    display:flex;
+    height: 449px;
+}
+.con-slides input{
+    display: none;
+}
+.con-slide{
+    transition: 0.5s;
+    width: 600px;
+}
+.con-navigation-manual{
+    
+    width: 200px;
+    display: flex;
+    margin-left: 1055px;
+    align-items: right;
+    margin-bottom: 10px;
+    
+}
+.manual-button{
+    border: 2px solid #fff;
+    padding: 4px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.manual-button:not(:last-child){
+    margin-right: 5px;
+}
+.manual-button:hover{
+    background: #fff;
+}
+#radio_1:checked ~ .first{
+    margin-left: 0;
+}
+#radio_2:checked ~ .first{
+    margin-left: -100%;
+}
+#radio_3:checked ~ .first{
+    margin-left: -200%;
+}
+
+.convcn-btn{
+    background-color: #fff;
+    width: 100%; height: 46px;
+    border: 1px solid #cacaca;
+    color: #8a0f11;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+}
+.convcn-btn:hover{
+    background-color:#004b49;
+    color: white;
+}
+.con-menu{
+    text-decoration: none;
+}
+
+.con-v{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+.actv{
+    
+    background-color:#003735;
+    color: white;   
+}
+.Resources-btn{
+    background-color: #eee;
+    width: 100%; height: 70px;
+    color: #0f4e49;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+   
+}
+.Resources-btn:hover{
+    cursor: pointer;
+    background-color:#ccc;
+    
+}
+.rsc-v{
+    padding-left: 10px;
+    padding-top: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 24px;
+}
+
+
+
+
+
+
+  
+
